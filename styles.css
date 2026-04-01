@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: auto;
+}
+
 :root {
   color-scheme: dark;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
