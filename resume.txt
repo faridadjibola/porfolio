@@ -1,0 +1,67 @@
+OKORO FARID
+Lagos, Nigeria | Software Engineer
+Email: okorofarid07@gmail.com | Phone: +2348087724597
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROFESSIONAL SUMMARY
+
+Software engineer with 1 year of professional experience building responsive 
+web applications and clean interfaces. Expertise in HTML, CSS, JavaScript, 
+Python, and PHP. Focused on user-centric design, performance optimization, 
+and maintainable code.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EXPERIENCE
+
+Software Engineer 
+Personal PROJECTS
+• Built responsive web applications using HTML5, CSS3, and vanilla JavaScript
+• Collaborated with design and product teams to implement polished interfaces
+• Optimized page performance and ensured cross-browser compatibility
+• Conducted code reviews and maintained clean, scalable codebase
+• Debugged complex issues using Chrome DevTools and systematic problem-solving
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SKILLS
+
+Frontend Development
+• HTML5, CSS3, CSS Grid, Flexbox, Responsive Design
+• JavaScript (Vanilla, DOM manipulation, async operations)
+• Accessibility (WCAG standards, semantic HTML)
+
+Backend & Languages
+• Python (basics)
+• PHP (basics)
+
+Tools & Workflow
+• Git & GitHub, npm, VS Code
+• Chrome DevTools, Figma basics
+• Agile collaboration, code reviews
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROJECTS
+
+Portfolio Landing Page
+Built a responsive personal portfolio with animated sections, mobile navigation, 
+and clean visual hierarchy using HTML, CSS, and JavaScript.
+
+Task Manager Web App
+Developed a task tracking application with dynamic UI updates, local storage 
+persistence, and filtering features.
+
+Responsive E-commerce Landing Page
+Created a mobile-first product showcase landing page optimized for fast load 
+times and intuitive user experience.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EDUCATION
+
+BSC in Systems Engineering
+University of Lagos — 2024 -2028
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
