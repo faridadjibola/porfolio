@@ -1,11 +1,5 @@
-const navToggle = document.getElementById('navToggle');
-const navMenu = document.getElementById('navMenu');
 const contactForm = document.getElementById('contactForm');
 const formStatus = document.getElementById('formStatus');
-
-navToggle.addEventListener('click', () => {
-  navMenu.classList.toggle('open');
-});
 
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
