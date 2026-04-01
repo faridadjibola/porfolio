@@ -1,11 +1,10 @@
 :root {
   color-scheme: dark;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: linear-gradient(180deg, #020617 0%, #0f172a 55%, #111827 100%);
+  background: #0f172a;
   color: #e2e8f0;
   line-height: 1.6;
   font-size: 16px;
-  min-height: 100vh;
 }
 
 
@@ -16,7 +15,10 @@
 
 body {
   margin: 0;
-  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: auto;
 }
 
 img {
@@ -36,11 +38,8 @@ textarea {
 }
 
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  position: relative;
   background: #0f172a;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
 }
 
 .header-inner {
@@ -48,7 +47,7 @@ textarea {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 0.75rem 0;
 }
 
 .brand {
@@ -66,7 +65,6 @@ textarea {
 .nav a {
   color: #cbd5e1;
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
 .nav a:hover {
@@ -74,16 +72,7 @@ textarea {
 }
 
 .hero {
-  padding: 5rem 0 3rem;
-  position: relative;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: none;
-  pointer-events: none;
+  padding: 2.5rem 0 1.5rem;
 }
 
 .hero-grid {
@@ -103,23 +92,20 @@ textarea {
 }
 
 .profile-card {
-  background: rgba(15, 23, 42, 0.92);
-  border: 1px solid rgba(148, 163, 184, 0.16);
-  border-radius: 1.5rem;
+  background: #1a2945;
   padding: 2rem;
-  box-shadow: none;
+  border-radius: 0.5rem;
 }
 
 .profile-avatar {
-  width: 84px;
-  height: 84px;
-  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  border-radius: 0;
   display: grid;
   place-items: center;
-  margin-bottom: 1.25rem;
   background: #38bdf8;
   color: #0f172a;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -144,28 +130,19 @@ textarea {
 
 .profile-list li {
   padding: 0.9rem 1rem;
-  border-radius: 0.9rem;
-  background: rgba(148, 163, 184, 0.08);
-  transition: all 0.3s ease;
-}
-
-.profile-list li:hover {
-  background: rgba(56, 189, 248, 0.15);
-  border-color: rgba(56, 189, 248, 0.3);
-  transform: translateX(4px);
+  background: #1a2945;
 }
 
 .eyebrow {
   margin: 0 0 1rem;
   color: #38bdf8;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 h1 {
   margin: 0 0 1.25rem;
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: 2.5rem;
   line-height: 1.05;
 }
 
@@ -179,9 +156,9 @@ p {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.95rem 1.5rem;
-  border-radius: 999px;
-  border: 1px solid transparent;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  border: none;
   text-decoration: none;
   cursor: pointer;
 }
@@ -194,7 +171,7 @@ p {
 .button-secondary {
   background: transparent;
   color: #f8fafc;
-  border-color: rgba(148, 163, 184, 0.24);
+  border: 1px solid #cbd5e1;
 }
 
 .button-resume {
@@ -203,7 +180,6 @@ p {
   background: #38bdf8;
   color: #0f172a;
   font-weight: 600;
-  transition: background 0.2s ease;
   box-shadow: none;
 }
 
@@ -219,34 +195,19 @@ p {
 }
 
 .social-icon {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background: rgba(148, 163, 184, 0.12);
+  border-radius: 4px;
+  background: #1a2945;
   color: #38bdf8;
-  border: 1px solid rgba(148, 163, 184, 0.2);
   text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.social-icon svg {
-  width: 20px;
-  height: 20px;
-}
-
-
-
-.social-icon:hover {
-  background: #38bdf8;
-  color: #0f172a;
-  border-color: #38bdf8;
 }
 
 .section {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .section h2 {
@@ -269,9 +230,7 @@ p {
 }
 
 .stats-card {
-  background: rgba(15, 23, 42, 0.8);
-  border: 1px solid rgba(148, 163, 184, 0.15);
-  border-radius: 1rem;
+  background: #1a2945;
   padding: 1.5rem;
 }
 
@@ -293,9 +252,7 @@ p {
 
 .skill-card,
 .project-card {
-  background: rgba(15, 23, 42, 0.85);
-  border: 1px solid rgba(148, 163, 184, 0.14);
-  border-radius: 1rem;
+  background: #1a2945;
   padding: 1.5rem;
 }
 
@@ -334,9 +291,8 @@ p {
 .contact-form textarea {
   width: 100%;
   padding: 1rem;
-  border-radius: 0.75rem;
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  background: rgba(15, 23, 42, 0.75);
+  border: none;
+  background: #1a2945;
   color: #f8fafc;
 }
 
